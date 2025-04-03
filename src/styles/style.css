@@ -1,0 +1,59 @@
+@import url(./global.css);
+
+header {
+    height: 131px;
+    padding: 40px 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header nav ul {
+    display: flex;
+    list-style: none;
+    width: 358px;
+    height: 19px;
+    gap: 40px;
+}
+
+header nav ul a {
+    text-decoration: none;
+    color: var(--black-w-opacity);
+}
+
+header nav ul li:first-of-type a{
+    color: var(--Primary-color);
+}
+
+.button-wrapper-header {
+    width: 224.46px;
+    height: 51px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.button-header-icons {
+    width: 95.46px;
+    height: 40px;
+    display: flex;
+    gap: 16px;
+}
+
+.button-header-icons button {
+    background-color: var(--BG-Overlay-color);
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.button-header-login {
+    background-color: var(--BG-Overlay-color);
+    border: 1px solid var(--Primary-color);
+    border-radius: 10px;
+    width: 105px;
+    height: 51px;
+    color: var(--Primary-color);
+}

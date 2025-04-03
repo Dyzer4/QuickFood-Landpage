@@ -1,0 +1,21 @@
+* {
+    margin: 0px;
+    border: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: var(--BG-Overlay-color);
+    font-family: var(--font);
+}
+
+:root {
+    --font: ;
+    --grey: #000000;
+    --Primary-color: #00A000;
+    --black: rgb(0, 0, 1);
+    --grey-light: #999999;
+    --white: #ffffff;
+    --BG-Overlay-color:#FAFAFA;
+    --black-w-opacity: rgba(0,0,1,0.6);
+}
