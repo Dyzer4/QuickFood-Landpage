@@ -9,8 +9,13 @@ body {
     font-family: var(--font);
 }
 
+button {
+    border-radius: 10px;
+    padding: 16px 32px;
+}
+
 :root {
-    --font: ;
+    --font: 'Gilroy', sans-serif;
     --grey: #000000;
     --Primary-color: #00A000;
     --black: rgb(0, 0, 1);
@@ -19,3 +24,9 @@ body {
     --BG-Overlay-color:#FAFAFA;
     --black-w-opacity: rgba(0,0,1,0.6);
 }
+
+@font-face {
+    font-family: 'Gilroy';
+    src: url('../assets/fonts/Gilroy.ttf') format('ttf');         
+}
+

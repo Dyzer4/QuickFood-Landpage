@@ -1,5 +1,7 @@
 @import url(./global.css);
 
+/*--------------------------------- HEADER --------------------------------------*/
+
 header {
     height: 131px;
     padding: 40px 100px;
@@ -30,7 +32,7 @@ header nav ul li:first-of-type a{
     height: 51px;
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    gap: 24px;
 }
 
 .button-header-icons {
@@ -47,13 +49,75 @@ header nav ul li:first-of-type a{
     display: flex;
     align-items: center;
     justify-content: center;
+    padding: 0;
 }
 
 .button-header-login {
     background-color: var(--BG-Overlay-color);
     border: 1px solid var(--Primary-color);
-    border-radius: 10px;
-    width: 105px;
-    height: 51px;
     color: var(--Primary-color);
 }
+
+/*------------------------------- MAIN -------------------------------------------------*/
+
+main{
+    display: flex;
+    margin: 100px 0px 100px 100px;
+    align-items: center;
+    gap: 132px;
+}
+
+.container-main-text {
+    height: 391px;
+    width: 563px;
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+h1 {
+    font-size: 60px;
+    font-weight: bold;
+    color: var(--black);
+}
+
+h1 span {
+    color: var(--Primary-color);
+}
+
+.container-main-text p {
+    font-size: 18px;
+    color: var(--black-w-opacity);
+    line-height: 160%;
+}
+
+.main-button-wrapper {
+    width: 356px;
+    height: 51px;
+    display: flex;
+    gap: 24px;
+}
+
+.main-button-wrapper button {
+    color: var(--Primary-color);
+    background-color: var(--BG-Overlay-color);
+    border: 1px solid var(--Primary-color);
+}
+
+.main-button-wrapper button:first-of-type {
+    background-color: var(--Primary-color);
+    color: var(--white);
+}
+
+/*------------------------------- FOOTER -------------------------------------------------*/
+
+footer {
+    background-color: var(--Primary-color);
+    margin-top: 60px;
+    padding: 100px;
+    display: flex;
+    flex-direction: column;
+}
+
+
+
