@@ -7,7 +7,7 @@ header {
     padding: 40px 100px;
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    gap: 258.27px;
 }
 
 header nav ul {
@@ -96,6 +96,7 @@ h1 span {
     height: 51px;
     display: flex;
     gap: 24px;
+    margin: 0px;
 }
 
 .main-button-wrapper button {
@@ -107,6 +108,7 @@ h1 span {
 .main-button-wrapper button:first-of-type {
     background-color: var(--Primary-color);
     color: var(--white);
+    margin: 0px;
 }
 
 /*------------------------------- FOOTER -------------------------------------------------*/
@@ -117,7 +119,80 @@ footer {
     padding: 100px;
     display: flex;
     flex-direction: column;
+    gap: 80px;
 }
 
+.footer-container {
+    width: 1240px;
+    height: 178px;
+    display: flex;
+    gap: 24px;
+}
 
+.footer-content-socials{
+    width: 292px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 24px;
+}
+
+.socials-icons {
+    display: flex;
+    gap: 17.87px;
+}
+
+.socials-icons a {
+    border: 2px solid var(--white);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 20.28px;
+    height: 20.28px;
+}
+
+.footer-content-nav{
+    display: flex;
+    gap: 40px;
+}
+
+.footer-content-column {
+    width: 281px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.footer-content-column ul {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.footer-content-column h2 {
+    color: var(--white);
+    font-size: 18px;
+    font-weight: 800;
+} 
+
+.footer-content-column ul a {
+    text-decoration: none;
+    color: var(--white);
+    font-size: 18px;
+}
+
+.rights {
+    width: 1240px;
+    border-top: 1px solid var(--white);
+    padding-top: 16px;
+    color: var(--white);
+    display: flex;
+    justify-content: center;
+}
+
+.rights p {
+    font-size: 20px;
+}
 
