@@ -43,7 +43,7 @@ header nav ul li:first-of-type a{
 }
 
 .button-header-icons button {
-    background-color: var(--BG-Overlay-color);
+    background-color: transparent;
     width: 40px;
     height: 40px;
     display: flex;
@@ -53,7 +53,7 @@ header nav ul li:first-of-type a{
 }
 
 .button-header-login {
-    background-color: var(--BG-Overlay-color);
+    background-color: transparent;
     border: 1px solid var(--Primary-color);
     color: var(--Primary-color);
 }
@@ -101,7 +101,7 @@ h1 span {
 
 .main-button-wrapper button {
     color: var(--Primary-color);
-    background-color: var(--BG-Overlay-color);
+    background-color: transparent;
     border: 1px solid var(--Primary-color);
 }
 
@@ -111,7 +111,86 @@ h1 span {
     margin: 0px;
 }
 
-/*------------------------------- FOOTER -------------------------------------------------*/
+/* ------------------------------ CHOOSE ------------------------------------------------- */
+
+.choose {
+    background-color: var(--BG-Overlay-color);
+    padding: 100px;
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+}
+
+.choose-title {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+}
+
+.choose-title h2 {
+    color: var(--black);
+    font-size: 48px;
+}
+
+.choose-title p {
+    color: var(--grey-light);
+    font-size: 18px;
+}
+
+.choose-cards {
+    display: flex;
+    gap: 20px;
+    width: 1240px;
+    height: 356px;
+    text-align: center;
+}
+
+.choose-card-content {
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.choose-card-content img {
+    margin-bottom: 40px;
+}
+
+.choose-card-content h3 {
+    margin-bottom: 8px;
+    font-size: 28px;
+    color: var(--black);
+}
+
+.choose-card-content p, .choose-cards-numbers-content p {
+    font-size: 18px;
+    color: var(--black-w-opacity);
+}
+
+.choose-cards-numbers {
+    width: 1240px;
+    height: 87px;
+    display: flex;
+    gap: 20px;
+}
+
+.choose-cards-numbers-content {
+    width: 400px;
+    text-align: center;
+}
+
+.choose-cards-numbers-content h3 {
+    margin-bottom: 8px;
+    font-size: 48px;
+    color: var(--black);
+}
+
+/* ------------------------------ SPECIAL ----------------------------------------------- */
+
+
+
+/* ------------------------------ FOOTER ------------------------------------------------ */
 
 footer {
     background-color: var(--Primary-color);

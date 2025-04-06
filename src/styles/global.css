@@ -5,7 +5,6 @@
 }
 
 body {
-    background-color: var(--BG-Overlay-color);
     font-family: var(--font);
     width: 1440px;
     margin: 0 auto;
