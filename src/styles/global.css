@@ -5,6 +5,7 @@
 }
 
 body {
+    border: 2px solid;
     font-family: var(--font);
     width: 1440px;
     margin: 0 auto;

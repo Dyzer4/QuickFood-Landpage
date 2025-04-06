@@ -188,7 +188,61 @@ h1 span {
 
 /* ------------------------------ SPECIAL ----------------------------------------------- */
 
+.special{
+    padding: 100px;
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+}
 
+.special h2 {
+    color: var(--black);
+    font-size: 48px;
+    text-align: center;
+}
+
+.special-cards {
+    display: flex;
+    width: 1240px;
+    height: 483.65px;
+    gap: 20px;
+}
+
+.special-card-content {
+    padding: 24px;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 16px;
+    align-items: center;
+}
+
+.special-card-content img:nth-of-type(1) {
+    width: 195px;
+    height: 242px;
+}
+
+.special-card-content h3 {
+    font-size: 28px;
+    color: var(--black);
+}
+
+.special-card-content p {
+    width: 279px;
+    height: 58px;
+    font-size: 18px;
+    color: var(--black-w-opacity);
+    line-height: 160%;
+} 
+
+.special-card-content button {
+    width: 352px;
+    height: 53px;
+    background-color: var(--Primary-color);
+    color: var(--white);
+    font-weight: 600;
+}
 
 /* ------------------------------ FOOTER ------------------------------------------------ */
 
