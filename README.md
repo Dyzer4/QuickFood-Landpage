@@ -97,5 +97,3 @@ Dyego da Silva Roque</a>
 Este projeto esta sobe a licença [MIT](./LICENSE).
 
 Feito por Dyego da Silva Roque👋🏽 [Entre em contato!](https://www.linkedin.com/in/dyego-roque-6101a6180)
-
-# Nexcent
