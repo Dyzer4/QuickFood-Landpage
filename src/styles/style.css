@@ -282,6 +282,7 @@ h1 span {
 }
 
 .clients-comments-content {
+    border-radius: 16px;
     background-color: var(--white);
     width: 400px;
     height: 300px;
@@ -343,6 +344,62 @@ h1 span {
     font-weight: 600;
     cursor: pointer;
 }
+
+/* newsteller */
+
+.newsteller {
+    margin-top: 60px;
+    background-color: var(--BG-Overlay-color);
+    padding: 100px 326px;
+}
+
+.newsteller-content {
+    width: 710px;
+    height: 224px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.newsteller-content h2 {
+    color: var(--black);
+    font-size: 48px;
+    margin-bottom: 8px;
+}
+
+.newsteller-content p {
+    color: var(--black-w-opacity);
+    font-size: 18px;
+    margin-bottom: 60px;
+}
+
+input {
+    padding: 8px 8px 8px 24px;
+    width: 710px;
+    height: 77px;
+    background-color: var(--white);
+    border: 1px solid #C1C1C1;
+    border-radius: 8px;
+    font-size: 18px;
+    color: var(--black);
+}
+
+input::placeholder {
+    color: var(--black);
+}
+
+.newsteller-content button {
+    width: 174px;
+    height: 61px;
+    background-color: var(--Primary-color);
+    color: var(--white);
+    position: relative;
+    translate: 320% -130%;
+    font-size: 24px;
+    font-weight: 500;
+}
+
 
 /* ------------------------------ FOOTER ------------------------------------------------ */
 
@@ -427,5 +484,6 @@ footer {
 
 .rights p {
     font-size: 20px;
+    padding: 8px 8px 8px 24px;
 }
 
