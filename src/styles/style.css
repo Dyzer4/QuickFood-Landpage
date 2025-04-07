@@ -50,12 +50,14 @@ header nav ul li:first-of-type a{
     align-items: center;
     justify-content: center;
     padding: 0;
+    cursor: pointer;
 }
 
 .button-header-login {
     background-color: transparent;
     border: 1px solid var(--Primary-color);
     color: var(--Primary-color);
+    cursor: pointer;
 }
 
 /*------------------------------- MAIN -------------------------------------------------*/
@@ -103,12 +105,14 @@ h1 span {
     color: var(--Primary-color);
     background-color: transparent;
     border: 1px solid var(--Primary-color);
+    cursor: pointer;
 }
 
 .main-button-wrapper button:first-of-type {
     background-color: var(--Primary-color);
     color: var(--white);
     margin: 0px;
+    cursor: pointer;
 }
 
 /* ------------------------------ CHOOSE ------------------------------------------------- */
@@ -242,6 +246,7 @@ h1 span {
     background-color: var(--Primary-color);
     color: var(--white);
     font-weight: 600;
+    cursor: pointer;
 }
 
 /* Clients */
@@ -398,6 +403,7 @@ input::placeholder {
     translate: 320% -130%;
     font-size: 24px;
     font-weight: 500;
+    cursor: pointer;
 }
 
 
