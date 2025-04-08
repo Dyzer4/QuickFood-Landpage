@@ -4,20 +4,15 @@
     padding: 0px;
 }
 
-body {
-    font-family: var(--font);
-    width: 1440px;
-    margin: 0 auto;
+@font-face {
+    font-family: 'Gilroy';
+    src: url('../assets/fonts/Gilroy-Regular.ttf') ;         
 }
 
-button {
-    border-radius: 10px;
-    padding: 16px 32px;
-    cursor: pointer;
-}
+
 
 :root {
-    --font: 'Gilroy', sans-serif;
+    --font: 'Gilroy';
     --grey: #000000;
     --Primary-color: #00A000;
     --black: rgb(0, 0, 1);
@@ -27,8 +22,15 @@ button {
     --black-w-opacity: rgba(0,0,1,0.6);
 }
 
-@font-face {
+body {
     font-family: 'Gilroy';
-    src: url('../assets/fonts/Gilroy.ttf') format('ttf');         
+    width: 1440px;
+    margin: 0 auto;
+}
+
+button {
+    border-radius: 10px;
+    padding: 16px 32px;
+    cursor: pointer;
 }
 
